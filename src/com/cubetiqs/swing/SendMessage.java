@@ -178,7 +178,7 @@ public class SendMessage extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this,
                         "Message sent successfully!",
                         "Send Message",
-                        JOptionPane.OK_OPTION);
+                        JOptionPane.INFORMATION_MESSAGE);
             }
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(this,
